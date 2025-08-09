@@ -1,6 +1,6 @@
 # Networking and Medical Data Transmission Demo
 
-## 📖 Introduction
+## Introduction
 
 This repository demonstrates practical differences between **TCP** and **UDP** protocols through Python benchmarks and explores the secure transmission of medical data using **HL7/FHIR** standards.  
 It is designed as a didactic resource for both computer networking concepts and their application in healthcare IT.
@@ -13,7 +13,7 @@ The repository includes:
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
 ```
 networking-medical-demo/
@@ -27,7 +27,7 @@ networking-medical-demo/
 
 ---
 
-## 🔌 Scripts Overview
+## Scripts Overview
 
 ### 1. `tcp_udp_per_transaction.py`
 Measures the average **Round Trip Time (RTT)** for sending small messages over TCP and UDP.
@@ -41,7 +41,7 @@ Demonstrates sending a **FHIR Patient resource** to the public **HAPI FHIR Test 
 
 ---
 
-## ⚙️ Installation
+## Installation
 
 1. Clone this repository:
 ```bash
@@ -62,7 +62,7 @@ pip install -r requirements.txt
 
 ---
 
-## ▶️ Usage
+## Usage
 
 Run each script independently:
 
@@ -78,7 +78,7 @@ The FHIR script will send a sample patient resource to the HAPI FHIR test server
 
 ---
 
-## 🩺 Medical Context
+## Medical Context
 
 In healthcare IT, while TCP and UDP remain the fundamental transport protocols, secure transmission is enforced at higher layers via:
 
@@ -94,7 +94,7 @@ Compliance is ensured through regulations and standards such as:
 
 ---
 
-## 📚 References
+## References
 
 - [RFC 793 – TCP](https://datatracker.ietf.org/doc/html/rfc793)
 - [RFC 768 – UDP](https://datatracker.ietf.org/doc/html/rfc768)
