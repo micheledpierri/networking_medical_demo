@@ -18,8 +18,8 @@ The repository includes:
 ```
 networking-medical-demo/
 │
-├── tcp_udp_per_transaction.py     # Compare per-transaction RTT for TCP and UDP
-├── tcp_udp_setup_and_rtt.py       # Measure connection setup time and RTT
+├── tcp_udp_benchmark.py           # Compare per-transaction RTT for TCP and UDP
+├── asynco.py                      # UDP asynco transmission
 ├── fhir_transfer.py               # Send HL7/FHIR patient resources to a test server
 ├── requirements.txt               # Python dependencies
 └── README.md                      # Documentation and usage instructions
