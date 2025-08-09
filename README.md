@@ -8,6 +8,7 @@ It is designed as a didactic resource for both computer networking concepts and 
 The repository includes:
 
 - **TCP/UDP Benchmark Scripts**: Measure and compare transaction times and connection setup overhead.
+- **Asynchronous UDP Trasmission Scrips**
 - **FHIR Data Transfer Script**: Send synthetic patient data to a public HAPI FHIR test server.
 - **Documentation**: Explaining the theory, implementation, and medical context.
 
@@ -32,8 +33,8 @@ networking-medical-demo/
 ### 1. `tcp_udp_per_transaction.py`
 Measures the average **Round Trip Time (RTT)** for sending small messages over TCP and UDP.
 
-### 2. `tcp_udp_setup_and_rtt.py`
-Measures both the **connection setup time** and the **per-transaction RTT** for TCP and UDP, highlighting differences in latency.
+### 2. `asynco.py`
+Demonstrate use of Asynchronous UDP Trasmission
 
 ### 3. `fhir_transfer.py`
 Demonstrates sending a **FHIR Patient resource** to the public **HAPI FHIR Test Server** at `https://hapi.fhir.org/baseR4`  
@@ -67,8 +68,8 @@ pip install -r requirements.txt
 Run each script independently:
 
 ```bash
-python tcp_udp_per_transaction.py
-python tcp_udp_setup_and_rtt.py
+python tcp_udp_benchmark.py
+python asynco.py
 python fhir_transfer.py
 ```
 
